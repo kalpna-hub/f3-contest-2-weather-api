@@ -1,0 +1,43 @@
+body{background: black; background-color: black; color: white; margin: 0; font-family: 'Inter', sans-serif;}
+.container{margin: 20px 50px;}
+.container > h1.heading {text-align: center;font-size: 100px;}
+.center > button#fetch-data {text-align: center;font-size: 20px;height: 45px;width: 30%; position: relative;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 36%;
+    width: 90%;
+   
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+#weather {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #666;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+.weather{ border: 1px solid black;}
